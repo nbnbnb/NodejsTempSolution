@@ -1,0 +1,10 @@
+{
+  "name": "ConsoleApp",
+  "version": "0.0.0",
+  "description": "ConsoleApp",
+  "main": "app.js",
+  "author": {
+    "name": "Jin",
+    "email": ""
+  }
+}
