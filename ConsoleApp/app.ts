@@ -1,15 +1,21 @@
-"use strict";
+"use strict"
 console.log();
-console.log("---------- start ---------- ");
+
+console.log("---------- start ---------- ")
+
 class Greeter {
-    constructor(message) {
+    greeting: string;
+    constructor(message: string) {
         this.greeting = message;
     }
     greet() {
         return "Hello, " + this.greeting;
     }
 }
+
 let greeter = new Greeter("world");
+
+
 console.log(greeter.greet());
-console.log("----------  end  ---------- ");
-//# sourceMappingURL=app.js.map
+
+console.log("----------  end  ---------- ")
