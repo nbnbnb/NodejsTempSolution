@@ -1,6 +1,15 @@
-declare class Greeter {
-    greeting: string;
-    constructor(message: string);
-    greet(): string;
+declare class Animal {
+    name: string;
+    constructor(theName: string);
+    move(distanceInMeters?: number): void;
 }
-declare let greeter: Greeter;
+declare class Snake extends Animal {
+    constructor(name: string);
+    move(distanceInMeters?: number): void;
+}
+declare class Horse extends Animal {
+    constructor(name: string);
+    move(distanceInMeters?: number): void;
+}
+declare let sam: Snake;
+declare let tom: Animal;

@@ -10,6 +10,8 @@
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <ScriptArguments>
     </ScriptArguments>
+    <NodeExeArguments>
+    </NodeExeArguments>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -45,6 +47,7 @@
     <TypeScriptSourceRoot>
     </TypeScriptSourceRoot>
     <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptModuleKind />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>true</DebugSymbols>
