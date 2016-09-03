@@ -5,6 +5,9 @@
   "main": "app.js",
   "author": {
     "name": "ZhangJin",
-    "email": ""
+    "email": "nbnbnb.zhang@gmail.com"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.8"
   }
 }
