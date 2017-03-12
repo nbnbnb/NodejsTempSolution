@@ -4,10 +4,6 @@
   "description": "ConsoleApp",
   "main": "app.js",
   "author": {
-    "name": "ZhangJin",
-    "email": "nbnbnb.zhang@gmail.com"
-  },
-  "devDependencies": {
-    "reflect-metadata": "^0.1.8"
+    "name": "ZhangJin"
   }
 }
