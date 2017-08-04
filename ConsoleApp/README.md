@@ -1,2 +1,3 @@
-﻿1，需要把 .js 文件从项目中排除，这样才不会导致 TypeScript 类型解析重复
+﻿# ConsoleApp
+
 

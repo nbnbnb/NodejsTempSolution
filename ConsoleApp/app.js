@@ -1,5 +1,3 @@
-"use strict";
-console.log();
-console.log("---------- start ---------- ");
-console.log("----------  end  ---------- ");
+console.log('----------start----------');
+console.log('---------- end ----------');
 //# sourceMappingURL=app.js.map

@@ -4,7 +4,6 @@
   "description": "ConsoleApp",
   "main": "app.js",
   "author": {
-    "name": "ZhangJin",
-    "email": ""
+    "name": "ZhangJin"
   }
 }
