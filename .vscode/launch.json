@@ -1,0 +1,22 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    // https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Nodejs",
+            "program": "${workspaceFolder}/build/app.js",
+        },
+        {
+            // 使用 node --inspect-brk ./build/app.js 运行程序
+            // 然后根据返回的端口号 attach
+            "type": "node",
+            "request": "launch",
+            "name": "Attach Nodejs",
+            "port": 9229        
+        }
+    ]
+}
