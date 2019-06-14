@@ -1,16 +1,9 @@
-import http = require('http');
+import rx = require('rxjs');
+import { Demo } from './demo';
 
-const hostname = '127.0.0.1';
+// Demo.consoleApp();
 
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text-plant');
-    res.end('Hello Wrold!\n');
-});
-
-
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+var source = rx.range(0, 3);
+var subscription = source.subscribe(it => {
+    console.log(it)
 });
