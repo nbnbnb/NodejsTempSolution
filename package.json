@@ -1,5 +1,14 @@
 {
+    "name": "nodejs-tempsolution",
     "dependencies": {
         "lodash": "^4.17.0"
-    }
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.8"
+    },
+    "repository": {
+        "type": "Github",
+        "url": "git@github.com:nbnbnb/NodejsTempSolution.git"
+    },
+    "license": "Apache-2.0"
 }
