@@ -1,9 +1,0 @@
-{
-  "name": "console-app",
-  "version": "0.0.0",
-  "description": "ConsoleApp",
-  "main": "app.js",
-  "author": {
-    "name": "ZhangJin"
-  }
-}
