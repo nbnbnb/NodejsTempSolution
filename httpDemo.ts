@@ -1,8 +1,8 @@
-import http = require('http');
-import rx = require('rxjs');
+// 导入整个模块
+import * as http from 'http';
 
-export class Demo {
-    static httpServer() {
+export class HttpDemo {
+    static run() {
         const hostname = '127.0.0.1';
         const port = 3000;
         const server = http.createServer((req, res) => {
@@ -16,7 +16,4 @@ export class Demo {
         });
     }
 
-    static consoleApp() {
-        console.log('');
-    }
 }
