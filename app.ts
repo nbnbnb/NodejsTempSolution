@@ -19,4 +19,4 @@ import { HttpDemo } from './httpDemo';
 
 Temp.run();
 RxJSDemo.run();
-HttpDemo.run()
+//HttpDemo.run()
