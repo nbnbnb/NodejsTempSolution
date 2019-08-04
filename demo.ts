@@ -15,4 +15,8 @@ export class Demo {
             console.log(`Server running at http://${hostname}:${port}/`);
         });
     }
+
+    static consoleApp() {
+        console.log('');
+    }
 }
